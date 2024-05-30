@@ -19,7 +19,7 @@ export default function Main() {
                             Arrietty - a Minimalist Personal Blog Using Next.js
                         </h1>
                         <p className="mt-5 lg:max-w-5xl lg:py-8">
-                            "Arrietty" is a minimalist personal blog built using
+                            &quot;Arrietty&quot; is a minimalist personal blog built using
                             Next.js and TailwindCSS. Its design is characterized
                             by simplicity and elegance, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
