@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;800&display=swap'); */
+
+@import url('./Components/UI/List.css');
+/* @import url('./Tags.css'); */
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-style: normal;
+
+    @apply bg-white text-base md:text-xl lg:text-2xl leading-normal tracking-normal text-luzern-700/95 dark:bg-luzern-900 dark:text-luzern-300/85;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Outfit';
+    font-weight: 800 !important;
+    @apply text-black dark:text-white;
+}
+
+/* figcaption {
+    @apply pt-2 text-sm italic md:pt-4 md:text-base lg:text-xl;
+} */
+
+header,
+footer,
+strong {
+    font-family: 'Outfit';
+    font-weight: 600;
+}
+
+b,
+strong {
+    @apply dark:text-luzern-300;
+}
+
+header {
+    @apply text-black dark:text-white lg:pt-4;
+}
+
+footer {
+    @apply p-3 pt-20;
+}
+
+.luzern-anchor {
+    @apply hover:text-black hover:underline hover:decoration-solid hover:decoration-2 hover:dark:text-white;
+}
+
+.luzern-anchor-border {
+    @apply underline decoration-solid decoration-2 hover:text-black hover:dark:text-white;
+}
+
+.luzern-button {
+    @apply w-full rounded-lg border-2
+        border-luzern-200 bg-luzern-100
+        px-6 py-3
+        text-sm transition-all hover:shadow-lg hover:shadow-luzern-400/40
+        focus:opacity-[0.85] active:opacity-[0.85]
+        active:shadow-none disabled:pointer-events-none  disabled:opacity-50
+        disabled:shadow-none dark:border-luzern-700
+        dark:bg-luzern-800 dark:hover:shadow-luzern-700/40 lg:text-base;
+}

@@ -1,0 +1,96 @@
+pre code {
+    font-weight: 600;
+    font-family: 'JetBrains Mono';
+    border-radius: 0.8em;
+    display: block;
+    overflow-x: auto;
+    padding: 2em;
+
+    @apply my-2 bg-luzern-900 text-xs text-white dark:bg-luzern-800 md:text-base;
+}
+
+code.hljs {
+    padding: 3px 5px;
+}
+
+.hljs-comment {
+    color: #bbbbbb;
+}
+
+.hljs-punctuation,
+.hljs-tag {
+    color: #fea44c;
+}
+
+.hljs-attr,
+.hljs-name {
+    color: #fd3148;
+}
+
+.hljs-attribute,
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-name,
+.hljs-selector-tag {
+    color: #fea44c;
+    font-weight: 800;
+}
+
+.hljs-deletion,
+.hljs-quote,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-string,
+.hljs-template-tag,
+.hljs-type {
+    color: #00d364;
+}
+
+.hljs-number {
+    color: #f27983;
+}
+
+.hljs-section,
+.hljs-title {
+    color: #fea44c;
+    font-weight: 800;
+}
+
+.hljs-link,
+.hljs-operator,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-symbol,
+.hljs-template-variable,
+.hljs-variable {
+    color: #fd3148;
+}
+
+.hljs-literal {
+    color: #00d364;
+}
+
+.hljs-addition,
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code {
+    color: #fd3148;
+}
+
+.hljs-meta {
+    color: #1f7199;
+}
+
+.hljs-meta .hljs-string {
+    color: #38a;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: 800;
+}

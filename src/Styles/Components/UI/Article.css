@@ -1,0 +1,120 @@
+@import url('./Highlight.css');
+
+.article-content {
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6,
+.article-content ul,
+.article-content ol,
+.article-content hr,
+.article-content img,
+.article-content pre,
+.article-content p {
+    @apply pb-6 leading-relaxed;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+    font-family: 'Outfit';
+    font-weight: 600 !important;
+
+    @apply pb-8 pt-2 text-black dark:text-white;
+}
+
+/* Horizontal Rule */
+.article-content hr {
+    @apply my-5 border-t-2 border-luzern-200 dark:border-luzern-500/20;
+}
+
+/* LIST */
+.article-content ul,
+.article-content ol {
+    @apply list-outside list-disc pl-6;
+}
+
+.article-content ol {
+    @apply list-decimal;
+}
+
+.article-content ul li,
+.article-content ol li {
+    @apply ml-4;
+}
+
+/* TABLE */
+.article-content table {
+    @apply mb-5 border-2 border-luzern-200 dark:border-luzern-800;
+}
+
+.article-content table thead {
+    @apply mb-5 border-b-2 bg-luzern-100 dark:bg-luzern-700/70;
+}
+
+.article-content table th,
+.article-content table td {
+    @apply border-2 border-luzern-200 px-4 py-2 dark:border-luzern-500/70;
+}
+
+/* CHECKBOX */
+.article-content ul li:has(input[type='checkbox']) {
+    @apply -ml-2 flex items-center pb-1;
+}
+
+.article-content ul li input[type='checkbox'] {
+    cursor: not-allowed;
+    pointer-events: none;
+    @apply mb-0.5 mr-2 size-4 accent-luzern-blue;
+}
+
+.article-content h1 {
+    @apply text-4xl tracking-normal;
+}
+.article-content h2 {
+    @apply text-3xl tracking-normal;
+}
+.article-content h3 {
+    @apply text-2xl tracking-normal;
+}
+.article-content h4 {
+    @apply text-xl tracking-normal;
+}
+.article-content h5 {
+    @apply text-lg tracking-normal;
+}
+.article-content h6 {
+    @apply text-base tracking-normal;
+}
+
+.article-content p {
+    @apply text-sm md:text-lg;
+}
+
+.article-content strong {
+    font-family: 'Inter';
+    font-weight: 700;
+
+    @apply tracking-tight;
+}
+
+.article-content p code {
+    font-weight: 800;
+    font-family: 'Inter';
+
+    display: inline-block;
+    @apply mx-0.5 rounded-md bg-luzern-900 p-0.5 px-2 text-xs text-white dark:bg-luzern-700 md:text-sm;
+}
+
+.article-content a {
+    @apply text-luzern-blue underline decoration-solid decoration-2 hover:dark:text-white;
+}
