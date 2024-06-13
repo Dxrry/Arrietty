@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;800&display=swap');
 
 @import url('./Components/UI/List.css');
 /* @import url('./Tags.css'); */
@@ -14,7 +14,7 @@ body {
     font-weight: 500;
     font-style: normal;
 
-    @apply bg-white text-base md:text-xl lg:text-2xl leading-normal tracking-normal text-luzern-700/95 dark:bg-luzern-900 dark:text-luzern-300/85;
+    @apply bg-white text-base leading-normal tracking-normal text-luzern-700/95 dark:bg-luzern-900 dark:text-luzern-300/85 md:text-xl lg:text-2xl;
 }
 
 h1,

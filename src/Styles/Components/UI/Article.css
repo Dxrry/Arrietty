@@ -3,6 +3,7 @@
 .article-content {
     font-family: 'Inter';
     font-weight: 500;
+    @apply text-base;
 }
 
 .article-content h1,

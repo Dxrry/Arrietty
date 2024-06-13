@@ -1,6 +1,6 @@
 ---
 title: 'Overreacted: How Does setState Know What to Do?'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper.'
 thumbnail: '/assets/uploads/Canva.png'
 date: '2020-03-18T05:35:07.322Z'
 tag: 'react'

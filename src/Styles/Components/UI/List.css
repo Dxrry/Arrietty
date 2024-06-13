@@ -1,11 +1,10 @@
 .article-list .article-title,
 .article-group {
     font-family: 'Outfit';
-    font-weight: 500 !important;
+    font-weight: 700 !important;
 }
 
 .article-group {
-    font-weight: 600 !important;
     @apply text-left text-2xl text-black dark:text-white;
 }
 
@@ -14,8 +13,11 @@
 }
 
 .article-list .article-title {
-    font-weight: 600 !important;
     @apply text-2xl text-black decoration-from-font dark:text-white;
+}
+
+.article-published {
+    @apply hidden md:flex;
 }
 
 .article-list .article-published,
@@ -23,5 +25,5 @@
     font-family: 'Inter';
     font-weight: 500 !important;
 
-    @apply text-base leading-tight;
+    @apply text-sm leading-tight md:text-base;
 }

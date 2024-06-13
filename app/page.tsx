@@ -3,8 +3,7 @@ import { getAllPosts } from '@/src/Libraries/Api';
 import Header from '@/src/Components/Section/Header';
 import Footer from '@/src/Components/Section/Footer';
 
-import List from '@/src/Components/UI/List'
-
+import List from '@/src/Components/UI/List';
 
 export default function Main() {
     const allPosts = getAllPosts();
@@ -19,11 +18,12 @@ export default function Main() {
                             Arrietty - a Minimalist Personal Blog Using Next.js
                         </h1>
                         <p className="mt-5 lg:max-w-5xl lg:py-8">
-                            &quot;Arrietty&quot; is a minimalist personal blog built using
-                            Next.js and TailwindCSS. Its design is characterized
-                            by simplicity and elegance, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua, eu feugiat pretium nibh ipsum.
+                            &quot;Arrietty&quot; is a minimalist personal blog
+                            built using Next.js and TailwindCSS. Its design is
+                            characterized by simplicity and elegance,
+                            consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua, eu
+                            feugiat pretium nibh ipsum.
                         </p>
                     </div>
                 </div>

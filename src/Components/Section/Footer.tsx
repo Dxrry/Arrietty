@@ -15,7 +15,9 @@ export default function Footer() {
                             Arrietty
                         </a>
                         <p className="mt-4 text-base">
-                            A minimalist Next.js with TailwindCSS theme, ideally designed for your personal blog use. You can access and download it from{' '}
+                            A minimalist Next.js with TailwindCSS theme, ideally
+                            designed for your personal blog use. You can access
+                            and download it from{' '}
                             <a
                                 href="https://github.com/Dxrry/Lucerne"
                                 className="border-b-2 border-black text-black hover:border-luzern-blue hover:text-luzern-blue dark:border-white dark:text-white"

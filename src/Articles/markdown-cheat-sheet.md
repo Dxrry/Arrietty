@@ -1,6 +1,6 @@
 ---
 title: 'Markdown Cheat Sheet'
-description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper.'
 thumbnail: '/assets/uploads/Canva.png'
 date: '2020-03-16T05:35:07.322Z'
 tag: 'typography'
@@ -100,21 +100,6 @@ func main() {
 }
 ```
 
-### ~~Footnote~~ (Unsupported)
-
-~~Here's a sentence with a footnote. [^1]~~
-
-~~[^1]: This is the footnote.~~
-
-### Heading ID
-
-### My Great Heading {#custom-id}
-
-### Definition List
-
-term
-: definition
-
 ### Strikethrough
 
 ~~The world is flat.~~
@@ -124,16 +109,6 @@ term
 -   [x] Write the press release
 -   [ ] Update the website
 -   [ ] Contact the media
-
-### Emoji
-
-That is so funny! :joy:
-
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-### Highlight
-
-I need to highlight these ==very important words==.
 
 ### Subscript
 

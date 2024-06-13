@@ -7,13 +7,13 @@ export default function Home() {
     return (
         <div className="relative isolate px-6 py-4 md:px-10">
             <div className="mx-auto flex max-w-7xl items-center justify-between lg:px-8">
-                <div className="w-full tags-list">
-                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 px-10">
-                        <article className="overflow-hidden transition pt-10">
+                <div className="tags-list w-full">
+                    <div className="grid grid-cols-1 gap-4 px-10 sm:grid-cols-2 lg:grid-cols-3">
+                        <article className="overflow-hidden pt-10 transition">
                             <img
                                 alt=""
                                 src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-auto w-80 object-cover rounded-xl"
+                                className="h-auto w-80 rounded-xl object-cover"
                             />
                             <div className="bg-white pt-6">
                                 <a href="#">
@@ -26,11 +26,11 @@ export default function Home() {
                                 </p>
                             </div>
                         </article>
-                        <article className="overflow-hidden transition pt-10">
+                        <article className="overflow-hidden pt-10 transition">
                             <img
                                 alt=""
                                 src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-auto w-80 object-cover rounded-xl"
+                                className="h-auto w-80 rounded-xl object-cover"
                             />
                             <div className="bg-white pt-6">
                                 <a href="#">
@@ -43,11 +43,11 @@ export default function Home() {
                                 </p>
                             </div>
                         </article>
-                        <article className="overflow-hidden transition pt-10">
+                        <article className="overflow-hidden pt-10 transition">
                             <img
                                 alt=""
                                 src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-auto w-80 object-cover rounded-xl"
+                                className="h-auto w-80 rounded-xl object-cover"
                             />
                             <div className="bg-white pt-6">
                                 <a href="#">
@@ -60,11 +60,11 @@ export default function Home() {
                                 </p>
                             </div>
                         </article>
-                        <article className="overflow-hidden transition pt-10">
+                        <article className="overflow-hidden pt-10 transition">
                             <img
                                 alt=""
                                 src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-auto w-80 object-cover rounded-xl"
+                                className="h-auto w-80 rounded-xl object-cover"
                             />
                             <div className="bg-white pt-6">
                                 <a href="#">
@@ -77,11 +77,11 @@ export default function Home() {
                                 </p>
                             </div>
                         </article>
-                        <article className="overflow-hidden transition pt-10">
+                        <article className="overflow-hidden pt-10 transition">
                             <img
                                 alt=""
                                 src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-auto w-80 object-cover rounded-xl"
+                                className="h-auto w-80 rounded-xl object-cover"
                             />
                             <div className="bg-white pt-6">
                                 <a href="#">
@@ -94,11 +94,11 @@ export default function Home() {
                                 </p>
                             </div>
                         </article>
-                        <article className="overflow-hidden transition pt-10">
+                        <article className="overflow-hidden pt-10 transition">
                             <img
                                 alt=""
                                 src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-auto w-80 object-cover rounded-xl"
+                                className="h-auto w-80 rounded-xl object-cover"
                             />
                             <div className="bg-white pt-6">
                                 <a href="#">
@@ -111,11 +111,11 @@ export default function Home() {
                                 </p>
                             </div>
                         </article>
-                        <article className="overflow-hidden transition pt-10">
+                        <article className="overflow-hidden pt-10 transition">
                             <img
                                 alt=""
                                 src="https://images.unsplash.com/photo-1504198266287-1659872e6590?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                className="h-auto w-80 object-cover rounded-xl"
+                                className="h-auto w-80 rounded-xl object-cover"
                             />
                             <div className="bg-white pt-6">
                                 <a href="#">

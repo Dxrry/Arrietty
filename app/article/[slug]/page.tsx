@@ -1,7 +1,7 @@
 import Header from '@/src/Components/Section/Header';
 import Footer from '@/src/Components/Section/Footer';
 
-import "@/src/Styles/Components/UI/Article.css"
+import '@/src/Styles/Components/UI/Article.css';
 
 import { getAllPosts, getPostBySlug } from '@/src/Libraries/Api';
 import { markdownToHtml } from '@/src/Libraries/Markdown';
